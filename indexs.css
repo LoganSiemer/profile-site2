@@ -1,0 +1,13 @@
+.Containers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:100px;
+	border:2px solid black;
+	height: 100vh;
+}
+
+.Items {
+	width: 100px;
+	height: 100px;
+}

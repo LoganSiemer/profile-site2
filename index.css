@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+}
+
+.item {
+    border: 2px dotted black;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+.item2 {
+    flex: 4;
+}
+
+.item4 {
+    flex: 4;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+}
+
+.Item {
+    border: 2px dotted black;
+    width: 200px;
+    height: 100px;
+    flex-basis: 220px;
+}
+
+.Item1 {
+    flex-shrink: 4;
+}
+
+.Item6 {
+    flex-shrink: 4;
+}
+
+.containers {
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.items {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    flex-basis: 122px;
+}
